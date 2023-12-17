@@ -1,0 +1,14 @@
+.list {
+    @apply w-full
+}
+.link {
+    @apply relative text-gray-700 tracking-[1px] p-2 cursor-pointer
+    hover:text-black
+}
+.link::after {
+    @apply content-[''] bg-[#435585] h-[3px] w-[0%] absolute left-0 -bottom-[5px] rounded-xl duration-300
+}
+
+.link:hover::after  {
+    @apply w-[100%]
+}
