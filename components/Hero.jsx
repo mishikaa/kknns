@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export const Hero = () => {
@@ -9,8 +10,13 @@ export const Hero = () => {
           <span>Welcome To</span>
           <span>KKNNS</span>
         </h1>
-        <div className='flex flex-col justify-center items-center text-2xl'>
+        <div className='flex flex-col justify-center items-center text-2xl gap-4'>
           <span>Your one-stop solution for network services and solutions.</span>
+          <Link 
+            className='outline cursor-pointer hover:bg-gray-700 text-white text-lg font-bold py-4 px-6 rounded-full' 
+            href='/assets/certificate.jpg'
+            download='certificate.jpg'
+          >Certificate</Link>
         </div>
       </div>
     </div>
