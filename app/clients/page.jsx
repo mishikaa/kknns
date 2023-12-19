@@ -1,4 +1,3 @@
-import React from 'react'
 import {clientList} from '@constants/clients'
 
 const Clients = () => {

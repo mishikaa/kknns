@@ -1,8 +1,8 @@
 "use client";
 
-import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
-import '@styles/navbar.css';
+import Link from "next/link";
+import { useState, useEffect } from "react";
+import "@styles/navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);

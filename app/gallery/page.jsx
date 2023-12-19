@@ -1,4 +1,5 @@
 import ImageSlider from '@components/ImageSlider'
+
 const Gallery = () => {
   return (
     <div className="flex flex-col items-center w-full h-screen">

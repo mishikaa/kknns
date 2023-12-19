@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -15,7 +14,7 @@ const About = () => {
       <div className='py-8 lg:px-28 mx-12 flex justify-center items-center md:h-screen gap-4'>
         <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-12'>
           {/* <Image src='/assets/about1.jpg' alt='about1' width={400} height={100}/> */}
-          <Image src='/assets/certificate.jpg' width={500} height={100}/>
+          <Image src='/assets/certificate.jpg' alt="certificate" width={500} height={100}/>
           <div className='flex flex-col justify-center'>
               <span className='text-[#025464] font-bold text-2xl'>Technical Expertise and Operational Experience</span>
               <div className='border-b-2 border-[#025464] my-2 mb-8'></div>
