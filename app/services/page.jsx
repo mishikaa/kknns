@@ -2,8 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faNetworkWired, faLink, faServer, faSatelliteDish, faWifi, faShieldAlt, faLayerGroup, faVideo, faDatabase, faSms } from '@fortawesome/free-solid-svg-icons';
 
-const Services = () => {
-  const servicesList = [
+const servicesList = [
     {
       title: 'Network Design & Installation',
       description: 'Our expert team designs and implements robust network solutions tailored to meet your specific requirements. From planning to installation, we ensure a seamless and efficient network infrastructure.',
@@ -55,6 +54,8 @@ const Services = () => {
       icon: faSms,
     },
   ];
+  
+const Services = () => {
 
   return (
     <div className='h-full w-full flex flex-col'>
