@@ -41,7 +41,7 @@ const About = () => {
               <span className='text-[#025464] font-bold text-2xl'>Comprehensive IT Services</span>
               <div className='border-b-2 border-[#025464] my-2 mb-8'></div>
               <p className='flex justify-center items-start text-xl leading-relaxed'>
-              Our company's focus extends to key sectors such as Utilities, Banking, Telecom, and more. In the realm of services, NNS Group not only 
+              Our company&apos;s focus extends to key sectors such as Utilities, Banking, Telecom, and more. In the realm of services, NNS Group not only 
               offers robust support for its core business but also provides professional and business consultancy services to its esteemed clientele. 
               </p>
         </div>
