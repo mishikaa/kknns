@@ -6,8 +6,9 @@ const About = () => {
     <>
     <div className='md:h-screen w-full flex flex-col gap-8'>
       {/* title section */}
-      <div className='w-full flex flex-col justify-center items-center h-2/3' style={{ backgroundImage: "url('/assets/about_bg.avif')" }}>
+      <div className='w-full flex flex-col justify-center items-center h-2/3' style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/about_bg.avif')" }}>
         <h1 className="text-8xl capitalize text-white font-extrabold">About us</h1>
+        <h3 className="text-4xl capitalize text-slate-200 italic mt-4">Where Technology Meets Expertise</h3>
       </div>
       
       {/* content */}
