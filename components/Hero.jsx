@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const Hero = () => {
   return (
-    <div className='h-screen w-full relative'>
+    <div className='h-screen w-full bg-black text-white'>
       <div className='absolute inset-0 bg-cover bg-no-repeat bg-center opacity-40' style={{ backgroundImage: "url('/assets/hero_bg.gif')" }}></div>
       <div className='flex flex-col h-screen w-full justify-center items-center z-10 gap-4'>
         <h1 className='text-8xl  z-10 font-extrabold font-sans'>KKNNS</h1>

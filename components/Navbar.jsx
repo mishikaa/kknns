@@ -29,6 +29,7 @@ const Navbar = () => {
   }, []);
 
   return (
+    <div className='mb-24'>
     <header className="bg-white text-black shadow-lg h-24 flex xl:justify-between xl:items-center p-4 fixed top-0 w-full z-40">
       <Link href="/" className="flex-shrink-0 flex gap-2 items-center justify-center px-2 lg:px-4">
         <img src="assets/earth.gif" alt="logo" />
@@ -103,6 +104,7 @@ const Navbar = () => {
         </Link>
       </div>
     </header>
+    </div>
   );
 };
 

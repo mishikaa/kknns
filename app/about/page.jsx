@@ -4,10 +4,10 @@ import React from 'react'
 const About = () => {
   return (
     <>
-    <div className='md:h-screen w-full flex flex-col mt-24 gap-8'>
+    <div className='md:h-screen w-full flex flex-col gap-8'>
       {/* title section */}
       <div className='w-full flex flex-col justify-center items-center h-2/3' style={{ backgroundImage: "url('/assets/about_bg.avif')" }}>
-        <h1 className="text-6xl capitalize text-white font-extrabold">About us</h1>
+        <h1 className="text-8xl capitalize text-white font-extrabold">About us</h1>
       </div>
       
       {/* content */}
