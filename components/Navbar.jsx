@@ -29,13 +29,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="bg-white text-black shadow-lg h-24 flex lg:justify-between lg:items-center p-4 fixed top-0 w-full z-50">
-      <Link href="/" className="border flex-shrink-0 flex items-center justify-center px-4 lg:px-6 xl:px-8">
-        <img className="" src="https://i.ibb.co/W6ZXdqN/2021-10-26-16h20-21.png" alt="logo" />
+    <header className="bg-white text-black shadow-lg h-24 flex xl:justify-between xl:items-center p-4 fixed top-0 w-full z-40">
+      <Link href="/" className="flex-shrink-0 flex gap-2 items-center justify-center px-2 lg:px-4">
+        <img src="assets/earth.gif" alt="logo" />
+        <img className='w-60' src="assets/name.png" alt="name" />
       </Link>
 
       {/* Menu icon */}
-      <div className="lg:hidden absolute right-0 p-5">
+      <div className="xl:hidden absolute right-0 p-5">
         <button
           onClick={toggleMenu}
           className={`text-lg font-semibold focus:outline-none ${isMenuOpen ? 'hidden' : 'visible'}`}
@@ -47,7 +48,7 @@ const Navbar = () => {
       </div>
 
       <nav
-        className={`text-lg font-semibold lg:flex gap-2 z-20
+        className={`text-lg font-semibold xl:flex gap-2 z-20
         ${isMenuOpen ? 'visible flex flex-col gap-4 absolute top-0 right-0 pt-12 p-8 h-screen bg-white bg-opacity-50' 
         : 'hidden'} 
       `}
@@ -55,7 +56,7 @@ const Navbar = () => {
         {/* Close button */}
         <button
           onClick={toggleMenu}
-          className="lg:hidden absolute right-0 top-2 p-5 focus:outline-none"
+          className="xl:hidden absolute right-0 top-2 p-5 focus:outline-none"
         >
           <svg className="h-6 w-6 text-gray-600 hover:text-black hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -84,7 +85,7 @@ const Navbar = () => {
         </ul>
 
         <Link
-          className="bg-black hover:bg-gray-800 hover:scale-105 text-white font-bold flex justify-center items-center px-6 py-4 rounded-full border border-gray-300 lg:hidden"
+          className="bg-black hover:bg-gray-800 hover:scale-105 text-white font-bold flex justify-center items-center px-6 py-4 rounded-full border border-gray-300 xl:hidden"
           href="/contact"
         >
           <span>Contact&nbsp;</span>
@@ -92,7 +93,7 @@ const Navbar = () => {
         </Link>
       </nav>
 
-      <div className="hidden lg:flex items-center">
+      <div className="hidden xl:flex items-center">
         <Link
           className="bg-black hover:bg-gray-800 hover:scale-105 text-white font-bold flex justify-center items-center px-6 py-4 rounded-full border border-gray-300"
           href="/contact"
