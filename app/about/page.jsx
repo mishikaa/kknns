@@ -6,13 +6,13 @@ const About = () => {
     <div className='min-h-screen w-full flex flex-col gap-8'>
       {/* title section */}
       <div className='w-full flex flex-col justify-center items-center h-2/3 py-12' style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/about_bg.avif')" }}>
-        <h1 className="text-8xl capitalize text-white font-extrabold">About us</h1>
-        <h3 className="text-4xl capitalize text-slate-200 italic mt-4"> A Legacy of Quality and Customer Satisfaction Since 2005</h3>
+        <h1 className="text-4xl lg:text-8xl capitalize text-white font-extrabold">About us</h1>
+        <h3 className="text-sm p-4 lg:text-4xl capitalize text-slate-200 italic mt-4"> A Legacy of Quality and Customer Satisfaction Since 2005</h3>
       </div>
       
       {/* content */}
-      <div className='py-8 lg:px-28 mx-12 flex justify-center items-center md:h-screen gap-4'>
-        <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-12'>
+      <div id="certified" className='py-8 lg:px-28 mx-12 flex justify-center items-center md:h-screen gap-4'>
+        <div className='flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12'>
           {/* <Image src='/assets/about1.jpg' alt='about1' width={400} height={100}/> */}
           <Image src='/assets/certificate.jpg' alt="certificate" width={500} height={100}/>
           <div className='flex flex-col justify-center'>

@@ -3,9 +3,9 @@ import Link from "next/link"
 
 const HomeComponent = ({comp}) => {
   return (
-    <div className={`h-full mt-12 py-8 px-20 lg:px-28 flex justify-center items-center lg:h-screen gap-4 bg-[${comp.bg}]`}>
-        <div className={`flex lg:flex-row${comp.rev} justify-center items-center gap-8`}>
-            <div className='flex md:flex-1 flex-col justify-center items-start gap-4'>
+    <div className={`h-full mt-12 py-8 px-8 lg:px-28 flex justify-center items-center lg:h-screen gap-4 bg-[${comp.bg}]`}>
+        <div className={`flex flex-col lg:flex-row justify-center items-center gap-8`}>
+            <div className='flex sm:flex-1 flex-col justify-center items-start gap-4'>
               <span className='text-[#025464] font-bold text-4xl capitalize'>{comp.title}</span>
               <p className='flex justify-center items-start text-xl leading-relaxed'>
                 {comp.description}
