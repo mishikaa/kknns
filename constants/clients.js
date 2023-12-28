@@ -1,42 +1,42 @@
 export const clientList = [
   {
-    title: 'National Water Development Authority',
-    description: 'We are proud to provide high-quality services to the , contributing to water resource management and development projects.'
+    title: 'ANSAL API',
+    description: 'Implemented a project involving wire connectivity-free pole camera installation, commissioning, and maintenance in a 4km radius.',
+    logoUrl: '/assets/ansal_api_logo.png' 
   },
   {
-    title: 'Doordarshan Kendra, Lucknow',
-    description: 'Our collaboration with Doordarshan Kendra involves delivering cutting-edge solutions to enhance broadcasting capabilities and reach a wider audience.'
+    title: 'Canara Bank',
+    description: 'Achieved the implementation of wire connectivity-free CDMA technology, marking the 2nd state in India in 2009.',
+    logoUrl: '/assets/canara_bank_logo.png'
   },
   {
-    title: 'UCO Bank, Lucknow',
-    description: 'Our services extend to UCO Bank, Lucknow, where we provide tailored solutions to meet banking and financial needs. With a focus on technological innovation and efficiency, we strive to enhance the overall banking experience for UCO Bank customers.'
+    title: 'Proficient Nidhi Ltd.',
+    description: 'Provided MPLS and VPN connectivity for branches in Uttar Pradesh and Bihar.',
+    logoUrl: '/assets/proficient_nidhi_logo.png' 
   },
   {
-    title: 'S.G.P.G.I.M.S., Lucknow',
-    description: 'We are honored to serve the Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow. Our collaboration involves delivering tailored solutions to meet the unique technological needs of a premier medical institution, contributing to advancements in healthcare.'
+    title: 'UPPCL (Uttar Pradesh Power Corporation Limited)',
+    description: 'Implemented an online billing system, lease line, and PRI line commissioning and maintenance.',
+    logoUrl: '/assets/uppcl_logo.png' 
   },
   {
-    title: 'CANARA Bank U.P.',
-    description: 'Our partnership with CANARA Bank U.P. is centered on providing comprehensive and reliable services to meet the diverse banking requirements. We strive to support CANARA Bank in delivering top-notch financial services to its customers.'
+    title: 'BSNL (Bharat Sanchar Nigam Limited)',
+    description: 'Provided customized solutions as a corporate customer.',
+    logoUrl: '/assets/bsnl_logo.png' 
   },
   {
-    title: 'Central Telegraph Office, Lucknow',
-    description: 'Working closely with the Central Telegraph Office, Lucknow, we aim to modernize and optimize communication systems. Our services contribute to the seamless transmission of information, enhancing connectivity and efficiency.'
+    title: 'LDA (Lucknow Development Authority)',
+    description: 'Commissioned a lease line connectivity project from Lalbagh to Gomtinagar.',
+    logoUrl: '/assets/lda_logo.png' 
   },
   {
-    title: 'L.E.S.A.',
-    description: 'As a service provider for Lucknow Electric Supply Authority (L.E.S.A.), we are dedicated to ensuring the reliability and efficiency of electrical services. Our solutions contribute to the smooth functioning of the power distribution network.'
+    title: 'Nagar Nigam Allahabad',
+    description: 'Established online connectivity for all branches in Allahabad.',
+    logoUrl: '/assets/nagar_nigam_allahabad_logo.png' 
   },
   {
-    title: 'I.T.R.C. (Industrial Toxilogy Research Centre)',
-    description: 'Our collaboration with the Industrial Toxilogy Research Centre (I.T.R.C.) involves providing advanced technological solutions to support research initiatives. We are committed to contributing to the advancement of industrial toxicology.'
-  },
-  {
-    title: 'BOBL Lucknow',
-    description: 'We extend our services to Bank of Baroda, Lucknow, with a focus on delivering cutting-edge banking solutions. Our partnership aims to enhance the digital banking experience for BOBL Lucknow customers.'
-  },
-  {
-    title: 'Lucknow Development Authority',
-    description: 'In collaboration with Lucknow Development Authority, we provide technological solutions to support urban development initiatives. Our services contribute to the planning and execution of projects aimed at enhancing the quality of life in Lucknow.'
+    title: 'Allahabad Bank',
+    description: 'Commissioned 13 TNF branches.',
+    logoUrl: '/assets/allahabad_bank_logo.png' 
   }
-]
+];

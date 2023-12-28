@@ -17,7 +17,7 @@ const ImageSlider = () => {
 
   const imageSources = [];
   for (let i = 1; i <= 4; i++) {
-    imageSources.push(`/assets/gallery${i}.jpeg`);
+    imageSources.push(`/assets/gallery${i}.jpg`);
   }
 
   const positions = ['center', 'left1', 'right', 'right1'];
@@ -38,7 +38,7 @@ const ImageSlider = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center w-full gap-2 h-screen">
+    <div className="flex flex-col items-center w-full gap-2 min-h-screen">
       {imageSources.map((image, index) => (
         <motion.img
           key={index}
